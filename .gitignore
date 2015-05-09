@@ -1,5 +1,6 @@
 .gradle
 .idea
+
 /local.properties
 #/.idea/workspace.xml
 #/.idea/libraries
@@ -16,3 +17,5 @@
 .idea/modules.xml
 app/app.iml
 #end of the commet
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
