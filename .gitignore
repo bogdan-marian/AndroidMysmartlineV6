@@ -1,0 +1,18 @@
+.gradle
+.idea
+/local.properties
+#/.idea/workspace.xml
+#/.idea/libraries
+#/.idea/.name
+.DS_Store
+/build
+
+**/build/**
+
+**/*.iml
+
+.idea/.name
+.idea/misc.xml
+.idea/modules.xml
+app/app.iml
+#end of the commet
