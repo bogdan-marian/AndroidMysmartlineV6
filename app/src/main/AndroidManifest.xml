@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="eu.mysmartline.appv3"
-    android:versionCode="12"
-    android:versionName="1.12" >
+    android:versionCode="14"
+    android:versionName="1.14" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -56,10 +56,7 @@
             android:name="eu.mysmartline.appv3.Activity3ListActivityes"
             android:label="@string/title_activity_activity3_list_activityes" >
         </activity>
-        <activity
-            android:name="eu.mysmartline.appv3.ActivateDevice"
-            android:label="@string/title_activity_activate_device" >
-        </activity>
+
         <activity
             android:name="eu.mysmartline.appv3.Activity4ActivateDevice"
             android:label="@string/title_activity_activity4_activate_device" >
@@ -85,14 +82,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="eu.mysmartline.appv3.Activity3ListActivityes" />
         </activity>
-        <activity
-            android:name="eu.mysmartline.appv3.Actifiby9ConfigurePrinter"
-            android:label="@string/title_activity_actifiby9_configure_printer"
-            android:parentActivityName="eu.mysmartline.appv3.Activity3ListActivityes" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="eu.mysmartline.appv3.Activity3ListActivityes" />
-        </activity>
+
         <activity
             android:name="eu.mysmartline.appv3.Activity9ConfigurePrinter"
             android:label="@string/title_activity_activity9_configure_printer"
